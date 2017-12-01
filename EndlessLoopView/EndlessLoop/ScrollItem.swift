@@ -10,7 +10,13 @@ import UIKit
 
 class ScrollItem: NSObject {
     
-    var itemUrl : String?
+    var itemUrl : URL?
     var itemLocalName : String?
     var placeholderImage : UIImage?
+    
+    init(_ url: String? = nil, localName: String? = nil,holderImage: UIImage? = nil) {
+        itemUrl = URL(string: url ?? "")
+        itemLocalName = localName
+        placeholderImage = holderImage
+    }
 }

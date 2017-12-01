@@ -3,83 +3,118 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EF9EC441D3CA9CF00E4FB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9EC431D3CA9CF00E4FB75 /* AppDelegate.swift */; };
-		3EF9EC461D3CA9CF00E4FB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9EC451D3CA9CF00E4FB75 /* ViewController.swift */; };
-		3EF9EC491D3CA9CF00E4FB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9EC471D3CA9CF00E4FB75 /* Main.storyboard */; };
-		3EF9EC4B1D3CA9CF00E4FB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9EC4A1D3CA9CF00E4FB75 /* Assets.xcassets */; };
-		3EF9EC4E1D3CA9CF00E4FB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9EC4C1D3CA9CF00E4FB75 /* LaunchScreen.storyboard */; };
-		3EF9EC571D3CA9E200E4FB75 /* EndlessLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9EC551D3CA9E200E4FB75 /* EndlessLoopView.swift */; };
-		3EF9EC581D3CA9E200E4FB75 /* ScrollItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9EC561D3CA9E200E4FB75 /* ScrollItem.swift */; };
+		181B93521FD15A93003BE197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B93511FD15A93003BE197 /* AppDelegate.swift */; };
+		181B93541FD15A93003BE197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B93531FD15A93003BE197 /* ViewController.swift */; };
+		181B93571FD15A93003BE197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B93551FD15A93003BE197 /* Main.storyboard */; };
+		181B93591FD15A93003BE197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181B93581FD15A93003BE197 /* Assets.xcassets */; };
+		181B935C1FD15A93003BE197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B935A1FD15A93003BE197 /* LaunchScreen.storyboard */; };
+		181B93661FD15C51003BE197 /* EndlessLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B93641FD15C51003BE197 /* EndlessLoopView.swift */; };
+		181B93671FD15C51003BE197 /* ScrollItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B93651FD15C51003BE197 /* ScrollItem.swift */; };
+		EC820090B44D94B491566813 /* Pods_EndlessLoopView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E81866CDB99EF53886C206 /* Pods_EndlessLoopView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3EF9EC401D3CA9CF00E4FB75 /* EndlessLoopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessLoopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EF9EC431D3CA9CF00E4FB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EF9EC451D3CA9CF00E4FB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3EF9EC481D3CA9CF00E4FB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3EF9EC4A1D3CA9CF00E4FB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3EF9EC4D1D3CA9CF00E4FB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3EF9EC4F1D3CA9CF00E4FB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EF9EC551D3CA9E200E4FB75 /* EndlessLoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndlessLoopView.swift; sourceTree = "<group>"; };
-		3EF9EC561D3CA9E200E4FB75 /* ScrollItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollItem.swift; sourceTree = "<group>"; };
+		181B934E1FD15A93003BE197 /* EndlessLoopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessLoopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B93511FD15A93003BE197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		181B93531FD15A93003BE197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181B93561FD15A93003BE197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181B93581FD15A93003BE197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181B935B1FD15A93003BE197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181B935D1FD15A93003BE197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B93641FD15C51003BE197 /* EndlessLoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndlessLoopView.swift; sourceTree = "<group>"; };
+		181B93651FD15C51003BE197 /* ScrollItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollItem.swift; sourceTree = "<group>"; };
+		24E81866CDB99EF53886C206 /* Pods_EndlessLoopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndlessLoopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		709C122FC1988A3D5B3D28BE /* Pods-EndlessLoopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessLoopView.release.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessLoopView/Pods-EndlessLoopView.release.xcconfig"; sourceTree = "<group>"; };
+		94D52B4057A8D4CC0788FF72 /* Pods-EndlessLoopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessLoopView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessLoopView/Pods-EndlessLoopView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3EF9EC3D1D3CA9CF00E4FB75 /* Frameworks */ = {
+		181B934B1FD15A93003BE197 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC820090B44D94B491566813 /* Pods_EndlessLoopView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3EF9EC371D3CA9CF00E4FB75 = {
+		181B93451FD15A93003BE197 = {
 			isa = PBXGroup;
 			children = (
-				3EF9EC421D3CA9CF00E4FB75 /* EndlessLoopView */,
-				3EF9EC411D3CA9CF00E4FB75 /* Products */,
+				181B93501FD15A93003BE197 /* EndlessLoopView */,
+				181B934F1FD15A93003BE197 /* Products */,
+				BBB3694F5C8493AA6DE0BF89 /* Pods */,
+				8BEC0B74194EB2E7067CE40C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		3EF9EC411D3CA9CF00E4FB75 /* Products */ = {
+		181B934F1FD15A93003BE197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3EF9EC401D3CA9CF00E4FB75 /* EndlessLoopView.app */,
+				181B934E1FD15A93003BE197 /* EndlessLoopView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3EF9EC421D3CA9CF00E4FB75 /* EndlessLoopView */ = {
+		181B93501FD15A93003BE197 /* EndlessLoopView */ = {
 			isa = PBXGroup;
 			children = (
-				3EF9EC431D3CA9CF00E4FB75 /* AppDelegate.swift */,
-				3EF9EC551D3CA9E200E4FB75 /* EndlessLoopView.swift */,
-				3EF9EC561D3CA9E200E4FB75 /* ScrollItem.swift */,
-				3EF9EC451D3CA9CF00E4FB75 /* ViewController.swift */,
-				3EF9EC471D3CA9CF00E4FB75 /* Main.storyboard */,
-				3EF9EC4A1D3CA9CF00E4FB75 /* Assets.xcassets */,
-				3EF9EC4C1D3CA9CF00E4FB75 /* LaunchScreen.storyboard */,
-				3EF9EC4F1D3CA9CF00E4FB75 /* Info.plist */,
+				181B93631FD15C51003BE197 /* EndlessLoop */,
+				181B93511FD15A93003BE197 /* AppDelegate.swift */,
+				181B93531FD15A93003BE197 /* ViewController.swift */,
+				181B93551FD15A93003BE197 /* Main.storyboard */,
+				181B93581FD15A93003BE197 /* Assets.xcassets */,
+				181B935A1FD15A93003BE197 /* LaunchScreen.storyboard */,
+				181B935D1FD15A93003BE197 /* Info.plist */,
 			);
 			path = EndlessLoopView;
+			sourceTree = "<group>";
+		};
+		181B93631FD15C51003BE197 /* EndlessLoop */ = {
+			isa = PBXGroup;
+			children = (
+				181B93641FD15C51003BE197 /* EndlessLoopView.swift */,
+				181B93651FD15C51003BE197 /* ScrollItem.swift */,
+			);
+			path = EndlessLoop;
+			sourceTree = "<group>";
+		};
+		8BEC0B74194EB2E7067CE40C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E81866CDB99EF53886C206 /* Pods_EndlessLoopView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBB3694F5C8493AA6DE0BF89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94D52B4057A8D4CC0788FF72 /* Pods-EndlessLoopView.debug.xcconfig */,
+				709C122FC1988A3D5B3D28BE /* Pods-EndlessLoopView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3EF9EC3F1D3CA9CF00E4FB75 /* EndlessLoopView */ = {
+		181B934D1FD15A93003BE197 /* EndlessLoopView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EF9EC521D3CA9CF00E4FB75 /* Build configuration list for PBXNativeTarget "EndlessLoopView" */;
+			buildConfigurationList = 181B93601FD15A93003BE197 /* Build configuration list for PBXNativeTarget "EndlessLoopView" */;
 			buildPhases = (
-				3EF9EC3C1D3CA9CF00E4FB75 /* Sources */,
-				3EF9EC3D1D3CA9CF00E4FB75 /* Frameworks */,
-				3EF9EC3E1D3CA9CF00E4FB75 /* Resources */,
+				AC3AEF0C10D7F725D9418FD1 /* [CP] Check Pods Manifest.lock */,
+				181B934A1FD15A93003BE197 /* Sources */,
+				181B934B1FD15A93003BE197 /* Frameworks */,
+				181B934C1FD15A93003BE197 /* Resources */,
+				1DDD994DC5FD38B179FA17E2 /* [CP] Embed Pods Frameworks */,
+				7ED0555F58AAC77442E49C2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -87,82 +122,137 @@
 			);
 			name = EndlessLoopView;
 			productName = EndlessLoopView;
-			productReference = 3EF9EC401D3CA9CF00E4FB75 /* EndlessLoopView.app */;
+			productReference = 181B934E1FD15A93003BE197 /* EndlessLoopView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3EF9EC381D3CA9CF00E4FB75 /* Project object */ = {
+		181B93461FD15A93003BE197 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = sunhua_com;
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
-					3EF9EC3F1D3CA9CF00E4FB75 = {
-						CreatedOnToolsVersion = 7.3;
+					181B934D1FD15A93003BE197 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3EF9EC3B1D3CA9CF00E4FB75 /* Build configuration list for PBXProject "EndlessLoopView" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 181B93491FD15A93003BE197 /* Build configuration list for PBXProject "EndlessLoopView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3EF9EC371D3CA9CF00E4FB75;
-			productRefGroup = 3EF9EC411D3CA9CF00E4FB75 /* Products */;
+			mainGroup = 181B93451FD15A93003BE197;
+			productRefGroup = 181B934F1FD15A93003BE197 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EF9EC3F1D3CA9CF00E4FB75 /* EndlessLoopView */,
+				181B934D1FD15A93003BE197 /* EndlessLoopView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3EF9EC3E1D3CA9CF00E4FB75 /* Resources */ = {
+		181B934C1FD15A93003BE197 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF9EC4E1D3CA9CF00E4FB75 /* LaunchScreen.storyboard in Resources */,
-				3EF9EC4B1D3CA9CF00E4FB75 /* Assets.xcassets in Resources */,
-				3EF9EC491D3CA9CF00E4FB75 /* Main.storyboard in Resources */,
+				181B935C1FD15A93003BE197 /* LaunchScreen.storyboard in Resources */,
+				181B93591FD15A93003BE197 /* Assets.xcassets in Resources */,
+				181B93571FD15A93003BE197 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DDD994DC5FD38B179FA17E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EndlessLoopView/Pods-EndlessLoopView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndlessLoopView/Pods-EndlessLoopView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ED0555F58AAC77442E49C2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndlessLoopView/Pods-EndlessLoopView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC3AEF0C10D7F725D9418FD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EndlessLoopView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		3EF9EC3C1D3CA9CF00E4FB75 /* Sources */ = {
+		181B934A1FD15A93003BE197 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF9EC461D3CA9CF00E4FB75 /* ViewController.swift in Sources */,
-				3EF9EC581D3CA9E200E4FB75 /* ScrollItem.swift in Sources */,
-				3EF9EC571D3CA9E200E4FB75 /* EndlessLoopView.swift in Sources */,
-				3EF9EC441D3CA9CF00E4FB75 /* AppDelegate.swift in Sources */,
+				181B93541FD15A93003BE197 /* ViewController.swift in Sources */,
+				181B93671FD15C51003BE197 /* ScrollItem.swift in Sources */,
+				181B93661FD15C51003BE197 /* EndlessLoopView.swift in Sources */,
+				181B93521FD15A93003BE197 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3EF9EC471D3CA9CF00E4FB75 /* Main.storyboard */ = {
+		181B93551FD15A93003BE197 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3EF9EC481D3CA9CF00E4FB75 /* Base */,
+				181B93561FD15A93003BE197 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3EF9EC4C1D3CA9CF00E4FB75 /* LaunchScreen.storyboard */ = {
+		181B935A1FD15A93003BE197 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3EF9EC4D1D3CA9CF00E4FB75 /* Base */,
+				181B935B1FD15A93003BE197 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,30 +260,41 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3EF9EC501D3CA9CF00E4FB75 /* Debug */ = {
+		181B935E1FD15A93003BE197 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -207,38 +308,50 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		3EF9EC511D3CA9CF00E4FB75 /* Release */ = {
+		181B935F1FD15A93003BE197 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -246,56 +359,68 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3EF9EC531D3CA9CF00E4FB75 /* Debug */ = {
+		181B93611FD15A93003BE197 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D52B4057A8D4CC0788FF72 /* Pods-EndlessLoopView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PARTNHCMD;
 				INFOPLIST_FILE = EndlessLoopView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stylewe.StyleWeShopping.EndlessLoopView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yizijob.EndlessLoopView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3EF9EC541D3CA9CF00E4FB75 /* Release */ = {
+		181B93621FD15A93003BE197 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709C122FC1988A3D5B3D28BE /* Pods-EndlessLoopView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PARTNHCMD;
 				INFOPLIST_FILE = EndlessLoopView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stylewe.StyleWeShopping.EndlessLoopView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yizijob.EndlessLoopView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3EF9EC3B1D3CA9CF00E4FB75 /* Build configuration list for PBXProject "EndlessLoopView" */ = {
+		181B93491FD15A93003BE197 /* Build configuration list for PBXProject "EndlessLoopView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3EF9EC501D3CA9CF00E4FB75 /* Debug */,
-				3EF9EC511D3CA9CF00E4FB75 /* Release */,
+				181B935E1FD15A93003BE197 /* Debug */,
+				181B935F1FD15A93003BE197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EF9EC521D3CA9CF00E4FB75 /* Build configuration list for PBXNativeTarget "EndlessLoopView" */ = {
+		181B93601FD15A93003BE197 /* Build configuration list for PBXNativeTarget "EndlessLoopView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3EF9EC531D3CA9CF00E4FB75 /* Debug */,
-				3EF9EC541D3CA9CF00E4FB75 /* Release */,
+				181B93611FD15A93003BE197 /* Debug */,
+				181B93621FD15A93003BE197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3EF9EC381D3CA9CF00E4FB75 /* Project object */;
+	rootObject = 181B93461FD15A93003BE197 /* Project object */;
 }
